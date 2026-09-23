@@ -13,4 +13,43 @@ public class Prenda {
 	 this.precio=precio;
 	 this.stock=stock;
  }
+public String getModelo() {
+    return modelo;
+}
+
+public void setModelo(String modelo) {
+    this.modelo = modelo;
+}
+
+public String getColor() {
+    return color;
+}
+
+public void setColor(String color) {
+    this.color = color;
+}
+
+public String getTalla() {
+    return talla;
+}
+
+public void setTalla(String talla) {
+    this.talla = talla;
+}
+
+public double getPrecio() {
+    return precio;
+}
+
+public void setPrecio(double precio) {
+    this.precio = precio;
+}
+
+public int getStock() {
+    return stock;
+}
+
+public void setStock(int stock) {
+    this.stock = stock;
+}
 }
