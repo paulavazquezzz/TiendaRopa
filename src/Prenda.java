@@ -52,4 +52,11 @@ public int getStock() {
 public void setStock(int stock) {
     this.stock = stock;
 }
+public String toString() {
+    return "Prenda: modelo=" + modelo + ", color=" + color + ", talla=" + talla + ", precio=" + precio + "€, stock=" + stock;
+}
+
+
+
+
 }
