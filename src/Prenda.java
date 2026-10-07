@@ -64,6 +64,11 @@ public boolean venderPrenda(int cantidad) {
     return false;
     //no había suficnete cantidad
 }
+public void reponer(int cantidad) {
+    if (cantidad>0) { //también podríamos poner excepción para cantidad menor que 1
+        this.stock+=cantidad;
+    }
+}
 
 
 }
