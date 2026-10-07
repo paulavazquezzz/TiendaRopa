@@ -55,8 +55,15 @@ public void setStock(int stock) {
 public String toString() {
     return "Prenda: modelo=" + modelo + ", color=" + color + ", talla=" + talla + ", precio=" + precio + "€, stock=" + stock;
 }
-
-
+public boolean venderPrenda(int cantidad) {
+    if(cantidad>0 && this.stock>=cantidad) {
+        this.stock-=cantidad;
+        //se va a poder vender y elimino la cantidad a mi stock. 
+        return true; 
+    }
+    return false;
+    //no había suficnete cantidad
+}
 
 
 }
