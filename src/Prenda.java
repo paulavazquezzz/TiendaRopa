@@ -68,6 +68,15 @@ public void reponer(int cantidad) {
     if (cantidad>0) { //también podríamos poner excepción para cantidad menor que 1
         this.stock+=cantidad;
     }
+    
+}
+
+public boolean estarDisponible(){
+    if (this.stock>0){
+        return true;
+    }else{
+        return false;
+    }
 }
 
 
