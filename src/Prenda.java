@@ -76,8 +76,16 @@ public boolean estarDisponible(){
         return true;
     }else{
         return false;
+        
     }
 }
+public void descuentos(double porcentaje){
+    if(porcentaje>0.0 && porcentaje<100.0){
+        this.precio-=this.precio*porcentaje/100.0; 
+    }
+}
+
+
 
 
 }
