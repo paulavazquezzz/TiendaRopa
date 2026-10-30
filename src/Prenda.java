@@ -2,11 +2,11 @@
 public class Prenda {
  private String modelo;
  private String color;
- private String talla;
+ private Talla talla;
  private double precio;
  private int stock;
  
- public Prenda(String modelo,String color,String talla, double precio,int stock) {
+ public Prenda(String modelo,String color,Talla talla, double precio,int stock) {
 	 this.modelo=modelo;
 	 this.color=color;
 	 this.talla=talla;
@@ -29,11 +29,11 @@ public void setColor(String color) {
     this.color = color;
 }
 
-public String getTalla() {
+public Talla getTalla() {
     return talla;
 }
 
-public void setTalla(String talla) {
+public void setTalla(Talla talla) {
     this.talla = talla;
 }
 
