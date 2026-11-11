@@ -5,5 +5,11 @@ public class Pantalon extends Prenda {
         super(modelo, color, talla, precio, stock);
         this.cortePantalon=cortePantalon;
     }
-	
+	public String getCortePantalon(){
+        return cortePantalon;
+    }
+
+    public void setCortePantalon(String cortePantalon){
+        this.cortePantalon=cortePantalon;
+    }
 }
