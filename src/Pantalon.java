@@ -12,4 +12,7 @@ public class Pantalon extends Prenda {
     public void setCortePantalon(String cortePantalon){
         this.cortePantalon=cortePantalon;
     }
+    public String toString(){
+        return super.toString() + ", corte=" + cortePantalon;
+    }
 }
